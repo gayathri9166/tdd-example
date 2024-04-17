@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e8e26e-1d04-40f7-a1a3-d22751d75fc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PopulationSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PopulationSearchTest.java" afterDir="false" />
+    <list default="true" id="54e8e26e-1d04-40f7-a1a3-d22751d75fc7" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PopulationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PopulationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PopulationSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PopulationSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,8 +40,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.PopulationSearchTest.executor": "Run",
-    "JUnit.PopulationSearchTest.findPopulationWithEmptyInput.executor": "Run",
+    "JUnit.All in tdd-example (1).executor": "Run",
+    "JUnit.All in tdd-example.executor": "Run",
+    "JUnit.PopulationSearchTest.executor": "Coverage",
+    "JUnit.PopulationSearchTest.findPopulationWithEmptyInput.executor": "Coverage",
     "JUnit.PopulationSearchTest.findPopulationWithInvalidInput.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +55,23 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PopulationSearchTest">
+  <component name="RunManager" selected="JUnit.All in tdd-example (1)">
+    <configuration name="All in tdd-example (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in tdd-example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PopulationSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,9 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tdd-example (1)" />
+        <item itemvalue="JUnit.PopulationSearchTest.findPopulationWithEmptyInput" />
+        <item itemvalue="JUnit.All in tdd-example" />
         <item itemvalue="JUnit.PopulationSearchTest" />
         <item itemvalue="JUnit.PopulationSearchTest.findPopulationWithInvalidInput" />
-        <item itemvalue="JUnit.PopulationSearchTest.findPopulationWithEmptyInput" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +127,23 @@
       <option name="presentableId" value="Default" />
       <updated>1713347368889</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1713356732659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713356732659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd_example$PopulationSearchTest_findPopulationWithEmptyInput.ic" NAME="PopulationSearchTest.findPopulationWithEmptyInput Coverage Results" MODIFIED="1713358998378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tdd_example$PopulationSearchTest.ic" NAME="PopulationSearchTest Coverage Results" MODIFIED="1713358441621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

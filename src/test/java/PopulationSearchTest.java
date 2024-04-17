@@ -16,18 +16,18 @@ public class PopulationSearchTest {
     @Test
     public void findPopulationWithEmptyInput() {
         String city = "";
-        int expectedPopulationCount = 0;
         PopulationSearch ps = new PopulationSearch();
         int count = ps.getPopulation(city);
+        int expectedPopulationCount = 0;
         Assert.assertEquals(expectedPopulationCount, count);
     }
 
     @Test
     public void findPopulationWithInvalidInput() {
         String city = "XYZ";
-        int expectedPopulationCount = 0;
         PopulationSearch ps = new PopulationSearch();
         int count = ps.getPopulation(city);
+        int expectedPopulationCount = 0;
         Assert.assertEquals(expectedPopulationCount, count);
     }
 }
